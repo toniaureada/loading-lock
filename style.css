@@ -1,0 +1,26 @@
+svg {
+  position: absolute; 
+  margin: auto; 
+  top: 0; 
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.loadingCircle {
+  transform: rotate(60deg);
+  transform-origin: 50% 50%;
+  fill: #9863b6;
+  animation: rotation 1.5s infinite linear; 
+  
+}
+
+
+@keyframes rotation {
+  0% {
+    transform: rotate(60deg);
+  }
+  100% {
+    transform: rotate(420deg);
+  }
+}
